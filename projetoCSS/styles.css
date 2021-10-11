@@ -5,7 +5,7 @@ body{
 }
 
 .hero{
-    background-image: url(/Curso_Web_Design_Completo/Arquivos_Aula/projetoCSS/imagens/bg-3.jpg);
+    background-image: url(/projetoCSS/imagens/bg-3.jpg);
     height: 500px; /*altura*/
     background-position: right center;
     background-size: cover; /*sempre ocupe a area inteira mesmo que ocupe um pedaco*/
