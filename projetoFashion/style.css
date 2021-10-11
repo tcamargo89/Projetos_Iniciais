@@ -1,0 +1,139 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    width: 1024px;
+    margin: 20px auto; /*20px cima e baixo e auto esquerda e direita*/
+}
+
+.header-top{
+    height: 50px;
+    background: #162028;
+    position: relative;
+}
+
+.logo{
+    margin: 5px 0px 0px 165px;
+}
+
+.header-nav{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    height: 100%;
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 0 15px 0 0;
+    padding: 16px;
+}
+
+.header-nav a{
+    color: #425564;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 4px;
+    transition: color 0.3s linear; /*recebe tres valores - qual propriedade estou animando(no caso é a propriedade color) durante quanto tempo(no caso 0.3 segundos) e o proximo é a funcao de aceleracao ou desaceleracao(no caso usamos linear pois nao tem aceleracao nem desaceleracao)*/ 
+}
+
+.header-nav a:hover{
+    color: white;
+}
+
+.article{
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.article h1{
+    font-size: 36px;
+    color: #252525;
+}
+
+.article p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+.galery{
+    color: #555;
+    padding: 0px 100px 50px 100px;
+    /*overflow: auto;*/
+}
+
+.galery-card{
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+}
+
+.galery-title{
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px; /*espacamento entre as letras*/
+}
+
+.about{
+    background-color: #003d52;
+    padding: 80px;
+    color: white;
+    background-image: url(/projetoFashion/imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about h2{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.about p{
+    line-height: 1.5; /*espacamento entre as linhas*/
+    width: 65%;
+}
+
+#contact{
+    color: #003d52;
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#contact address{
+    font-style: normal;
+}
+
+.maps{
+    width: 100%;
+    height: 500px;
+}
+
+.maps iframe{
+    width: 100%;
+}
+
+.rodape{
+    background: #003d52;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    letter-spacing: 5px;
+}
